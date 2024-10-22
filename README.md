@@ -1,31 +1,89 @@
-# HR Management System
+# Edunomics HR Management System (HRMS) - Frontend
 
-# Edunomics-HRMS-FRONTEND
+A comprehensive HR Management System made with **React** and **Node.js**. This system helps streamline HR processes, including employee management, attendance tracking, leave management, and more.
 
-# Made in React and Node.
+## Getting Started
 
-# run npm install and then npm start
+### Prerequisites
 
-# Major Functionalities
+- Node.js installed on your machine
+- NPM (Node Package Manager)
 
-# 1 Login for Admin/Employee
+### Installation
 
-# 2 Register for Employees By admin
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/edunomics-hrms-frontend.git
+   ```
 
-# 3 Employees can reset their Passwords
+## Major Functionalities
 
-# 4 Employees Can mark there attendence
+### 1. Login for Admin/Employee
 
-# 5 Employees can make request for leave and track there leave status
+Admin and Employees can log into the system based on their roles.
 
-# 6 Employees can Edit there Profile.
+### 2. Register Employees (Admin Only)
 
-# 7 Employees can view projects Assigned to them
+Admin can register new employees into the system.
 
-# 8 Logout
+### 3. Employees Can Reset Their Passwords
 
-# 9 Admin can Add/Delete/Edit/Update/View All emplyees
+Employees can reset their passwords in case they forget them or want to change them.
 
-# 10 Admin can Approve their leave or reject there leave
+### 4. Employees Can Mark Their Attendance
 
-# 11 Employees Cannot access Admin Routes As Role Based Access is Added
+Employees can mark their attendance through the dashboard.
+
+### 5. Employees Can Make Requests for Leave and Track Their Leave Status
+
+Employees can request leave and track the status of their leave requests.
+
+### 6. Employees Can Edit Their Profile
+
+Employees can update and edit their personal profile information.
+
+### 7. Employees Can View Projects Assigned to Them
+
+Employees can view the projects that are assigned to them by the admin.
+
+### 8. Logout
+
+Employees and Admin can log out securely from the system.
+
+### 9. Admin Can Add/Delete/Edit/Update/View All Employees
+
+Admin can perform the following actions:
+
+- Add new employees.
+- Delete employees.
+- Edit employee details.
+- Update employee information.
+- View a list of all registered employees.
+
+### 10. Admin Can Approve/Reject Employee Leave Requests
+
+Admin can approve or reject leave requests made by employees.
+
+### 11. Employees Cannot Access Admin Routes (Role-Based Access)
+
+Role-based access control is implemented, ensuring employees cannot access admin-specific routes.
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **Backend**: Node.js
+- **State Management**: Redux (if used)
+- **Authentication**: JWT (JSON Web Tokens)
+- **Styling**: CSS / Tailwind CSS / Material UI (depending on what’s used)
+- **API Communication**: Axios or Fetch API
+- **Role-based Access**: Implemented for secure route protection.
+
+## How to Contribute
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a pull request.
+
+For any issues or feature requests, please open an issue on GitHub.
