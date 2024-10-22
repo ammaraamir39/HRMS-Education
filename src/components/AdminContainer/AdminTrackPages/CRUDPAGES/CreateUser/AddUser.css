@@ -1,0 +1,61 @@
+.AUContainer {
+    width: 80%;
+    height: 900px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.AUContainerActive {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    margin-top: 70px;
+    left: 0;
+}
+
+.AUContainer h1 {
+    text-align: center;
+}
+
+.AUContainerActive h1 {
+    text-align: center;
+}
+
+.AUhead h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #00a652;
+    width: 100%;
+    color: #fff;
+    margin-top: 0px;
+    height: 60px;
+}
+
+@-moz-document url-prefix() {
+    .AUhead h1 {
+        width: 100%;
+    }
+}
+
+.AUheadActive h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #00a652;
+    width: 100%;
+    color: #fff;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.forrm {
+    width: 60%;
+    margin-left: 20%;
+    background-Color: #fff;
+}
+
+.forrmActive {
+    width: 60%;
+    margin-left: 20%;
+    background-Color: #fff;
+}

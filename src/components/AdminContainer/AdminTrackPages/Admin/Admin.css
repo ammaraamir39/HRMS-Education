@@ -1,0 +1,49 @@
+.AContainer {
+  width: 80%;
+  height: 900px;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.AContainerActive {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: #fff;
+  margin-top: 70px;
+  left: 0;
+}
+
+.AContainer h1 {
+  text-align: center;
+}
+
+.AContainerActive h1 {
+  text-align: center;
+}
+
+.Ahead h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #00a652;
+  width: 100%;
+  color: #fff;
+  margin-top: 0px;
+  height: 60px;
+}
+
+@-moz-document url-prefix() {
+  .Ahead h1 {
+    width: 100%;
+  }
+}
+
+.AheadActive h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #00a652;
+  width: 100%;
+  color: #fff;
+  margin-top: 0px;
+  height: 60px;
+}

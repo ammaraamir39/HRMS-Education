@@ -1,0 +1,49 @@
+.Tcontainer {
+  width: 80%;
+  height: 56.25rem;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+.ActiveCont {
+  position: absolute;
+  width: 100%;
+  height: 56.25rem;
+  background-color: #fff;
+  margin-top: 70px;
+  left: 0;
+}
+
+.ActiveCont h1 {
+  text-align: center;
+}
+
+.Tcontainer h1 {
+  text-align: center;
+}
+
+.THEAD h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #00a652;
+  width: 100%;
+  color: #fff;
+  margin-top: 0px;
+  height: 60px;
+}
+
+@-moz-document url-prefix() {
+  .THEAD h1 {
+    width: 100%;
+  }
+}
+
+.THEADACTIVE h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #00a652;
+  width: 100%;
+  color: #fff;
+  margin-top: 0px;
+  height: 60px;
+}
